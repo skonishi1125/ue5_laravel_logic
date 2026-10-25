@@ -1,0 +1,18 @@
+# 自動生成ディレクトリ・一時ファイルの除外
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opendb
+*.VC.db
+
+# アセットの除外設定
+# Contentフォルダ配下をすべてGit管理から除外
+Content/*
+
+# 例外（ホワイトリスト）設定
+# UI関連のフォルダのみ除外設定を解除してGit管理に含める
+!Content/UI/
